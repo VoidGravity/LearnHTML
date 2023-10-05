@@ -2,23 +2,37 @@
 body, h1, h2, ul, li, p, form {
     margin: 0;
     padding: 0;
+    
 }
 
 /* Styles g�n�raux */
 body {
+
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #ffffff;
+
+
 }
-titlecolor {
-    background-color: #000000;
+.colortitle {
+    
     color: #ffffff;
-    padding: 20px 0;
-    text-align: center;
+    
 }
+.bigim:hover{
+    height:220px;
+    border: 3px solid #000;
+}
+.imgp {
+    border: 2px solid #000;
+
+}   
 .container {
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 0 auto; 
     padding: 20px;
+}
+.da:hover {
+    color: #8000ff;
 }
 
 header {
@@ -51,7 +65,7 @@ nav a {
 }
 
 main {
-    background-color: #fff;
+    background-image: url('https://coolbackgrounds.io/images/backgrounds/white/white-triangle-369b8d2d.jpg');
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 40px 0;
 }
@@ -70,14 +84,20 @@ h2 {
 .btn {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #333;
+    background-color: #000000;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
+    
+}
+.btn:hover {
+    background-color: #8000ff;
+
+
 }
 
-/* Styles des services */
+
 .services-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
